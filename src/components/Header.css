@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    font-family: "Questrial", sans-serif;
+    font-style: normal;
+}
+
+header img{
+    width: 5%;
+}
+
+header p{
+    font-size: 1.15em;
+}
+#header-contact{
+    padding: 1%;
+    border-radius: 33px;
+    background: linear-gradient(to top right, #ff1d9d, #ffefd2);
+}
