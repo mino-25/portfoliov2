@@ -30,3 +30,18 @@
     top: 50;
     z-index: -10;
 }
+
+@media screen and (max-width : 900px){
+    .hero{
+        margin-top: 20%;
+    }
+    .hero-text h1{
+        font-size:large;
+    }
+    .hero-text h2{
+        font-size:medium;
+    }
+    .hero img{
+        width: 100%;
+    }
+}

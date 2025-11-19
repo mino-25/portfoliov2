@@ -19,3 +19,9 @@ header p{
     border-radius: 33px;
     background: linear-gradient(to top right, #ff1d9d, #ffefd2);
 }
+
+@media screen and (max-width : 900px){
+    header img{
+        width: 10%;
+    }
+}
