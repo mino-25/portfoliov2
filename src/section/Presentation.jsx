@@ -4,13 +4,24 @@ import highking from "../assets/man-highking.jpg";
 import react from "../assets/react.png";
 import python from "../assets/python.png";
 import node from "../assets/node.png";
+import talwind from "../assets/talwind.png";
+import vite from "../assets/vite.png";
+import html from "../assets/html.png";
+import css from "../assets/css.png";
+import js from "../assets/js.png"
 
 export default function Presentation(){
     const logos = [
         { id: "react", src: react, color: "#61dbfb" },
         { id: "python", src: python, color:"#ffd13e" },
-        { id: "node", src: node, color:"#68a063" }
+        { id: "node", src: node, color:"#68a063" },
+        {id:"talwind", src: talwind, color:"#35bef8"},
+        {id:"vite", src: vite, color:"#9a75ff"},
+        {id:"html", src: html, color:"#ef642a"},
+        {id:"css", src: css, color:"#2465f1"},
+        {id:"js", src: js, color:"#fff23eff"}
     ];
+
     return(
         <section className="presentation">
             <div className="presentation-text">
