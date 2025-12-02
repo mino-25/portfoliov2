@@ -27,8 +27,7 @@
 
 .skill:hover{
     box-shadow: 0 0 20px var(--color);
-    transform: scale(1.02);
-    transition: 0.5s ease-in-out;
+    transition: 0.5s ease-out;
 }
 
 
