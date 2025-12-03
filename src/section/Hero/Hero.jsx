@@ -1,6 +1,6 @@
 import "./Hero.css";
-import Mac from "../assets/black-mac.jpg";
-import Blob from "../assets/modern-blob.png";
+import Mac from "../../assets/black-mac.jpg";
+import Blob from "../../assets/modern-blob.png";
 
 export default function Hero(){
     return(
