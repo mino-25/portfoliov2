@@ -1,5 +1,5 @@
 import './Header.css'
-import Logo from "../assets/Logo25.png"
+import Logo from "../../assets/Logo25.png"
 
 export default function Header(){
     return(

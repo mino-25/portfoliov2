@@ -1,6 +1,24 @@
+.projects{
+    margin-top: 5%;
+}
+
 .project{
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+}
+
+.project-website{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top right,  #0e1938 0%, #6b41bf 25%, #f359d2 50%, #ffc2c3 75%);
+}
+
+.project-website h2{
+    font-family: 'Horizon', sans-serif;
+    font-size: 2.5em;
 }
