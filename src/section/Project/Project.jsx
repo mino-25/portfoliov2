@@ -1,11 +1,12 @@
 import "./Project.css"
-
+import LittleItalia from "./Projects/LittleItalia";
 export default function Project(){
     return(
         <section className="projects">
             <div className="project-website">
                 <h2>WEB SITE</h2>
             </div>
+            <LittleItalia />
             <div className="project fleche">
                 Fleche d'argent
             </div>
@@ -14,9 +15,6 @@ export default function Project(){
             </div>
             <div className="project ecobot">
                 Ecobot
-            </div>
-            <div className="project italia">
-                Little Italia
             </div>
 
         </section>
