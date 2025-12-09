@@ -30,8 +30,10 @@
     width: 35%;
     font-family: "Questrial", sans-serif;
 }
-
-
+.project-info a{
+    text-decoration: none;
+    color: #00aaff;
+}
 
 .project-website{
     width: 100%;

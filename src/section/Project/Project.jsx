@@ -1,6 +1,7 @@
 import "./Project.css"
 import LittleItalia from "./Projects/LittleItalia";
 import Fleche from "./Projects/Fleche";
+import Ofm from "./Projects/Ofm";
 export default function Project(){
     return(
         <section className="projects">
@@ -9,9 +10,7 @@ export default function Project(){
             </div>
             <LittleItalia />
             <Fleche />
-            <div className="project ofm">
-                OFM
-            </div>
+            <Ofm />
             <div className="project ecobot">
                 Ecobot
             </div>

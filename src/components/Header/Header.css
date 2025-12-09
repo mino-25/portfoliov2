@@ -15,10 +15,6 @@ header p{
     font-size: 1.15em;
     padding: 1%;
 }
-#header-contact{
-    border-radius: 33px;
-    background: linear-gradient(to top right, #ff1d9d, #ffefd2);
-}
 
 @media screen and (max-width : 900px){
     header img{
