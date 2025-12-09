@@ -1,0 +1,20 @@
+.projet-fleche{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.fleche-page{
+    width: 85%;
+}
+.fleche-logo{
+    width: 10%;
+}
+.projet-fleche h3{
+    font-family: "Questrial", sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 2%;
+    width: 40%;
+}

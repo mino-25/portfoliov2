@@ -1,5 +1,6 @@
 import "./Project.css"
 import LittleItalia from "./Projects/LittleItalia";
+import Fleche from "./Projects/Fleche";
 export default function Project(){
     return(
         <section className="projects">
@@ -7,9 +8,7 @@ export default function Project(){
                 <h2>WEB SITE</h2>
             </div>
             <LittleItalia />
-            <div className="project fleche">
-                Fleche d'argent
-            </div>
+            <Fleche />
             <div className="project ofm">
                 OFM
             </div>
