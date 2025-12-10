@@ -49,3 +49,33 @@
     font-size: 2.5em;
 }
 
+
+@media only screen and (max-width: 768px) {
+    .project{
+        padding: 5%;
+    }
+
+    .project-website h2{
+        font-size: 1.5em;
+    }
+
+    .project-media{
+        flex-direction: column;
+    }
+    .project-logo{
+        width: 20%;
+        height: 20%;
+        margin-bottom: 5%;
+    }
+    .project-page{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .project-info{
+        width: 100%;
+        margin-top: 0;
+    }
+    .project-website{
+        height: 40vh;
+    }
+}
